@@ -137,6 +137,13 @@ img {
 
 
 /* Tab Content */
+/* Hide all content by default */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+}
+.show { display: block !important; }
 .tab-content {
   padding: 3rem 0;
   background: #000;
